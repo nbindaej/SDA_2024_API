@@ -1,4 +1,4 @@
-package homeworks;
+package homeworks.day01;
 
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
