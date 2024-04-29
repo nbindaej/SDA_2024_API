@@ -1,5 +1,8 @@
 package pojos;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+
 public class BookingResponsePojo {
     private Integer bookingid;
     private BookingPojo booking;
