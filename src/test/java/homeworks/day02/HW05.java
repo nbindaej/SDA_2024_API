@@ -33,6 +33,7 @@ public class HW05 extends HomeworkBaseUrl {
 
         // 2- Send the request and get the response
         Response response = given(spec).when().get("{first}");
+        response.prettyPrint();
 
         // 3- Status code is 200
         response.then().statusCode(200);

@@ -5,13 +5,12 @@ import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.BeforeMethod;
 
-public class HomeworkBaseUrl {
-
+public class AutomationExBaseUrl {
     protected RequestSpecification spec;
     @BeforeMethod
     public void setUp(){
         spec = new RequestSpecBuilder()
-                .setBaseUri("https://reqres.in/api")
+                .setBaseUri("https://automationexercise.com/api")
                 .setContentType(ContentType.JSON)
                 .build();
     }
