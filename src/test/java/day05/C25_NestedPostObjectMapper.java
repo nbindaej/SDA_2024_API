@@ -83,7 +83,5 @@ public class C25_NestedPostObjectMapper extends RestFullBaseUrl {
         assertEquals(actualData.getBooking().getBookingdates().getCheckout(),payLoad.getBookingdates().getCheckout());
         assertEquals(actualData.getBooking().getAdditionalneeds(),payLoad.getAdditionalneeds());
 
-
-
     }
 }
